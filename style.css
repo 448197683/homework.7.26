@@ -1,0 +1,44 @@
+body{
+  background-color: antiquewhite;
+}
+.wrap{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.hide{
+  display: none;
+}
+form{
+  margin-top: 50px;
+}
+span{
+  font-size: 25px;
+}
+input{
+  margin-left: 20px;
+  width: 200px;
+  height: 20px;
+}
+button{
+  background-color: red;
+  color: white;
+  margin-top: 30px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+}
+button:active{
+  transform: scale(0.95);
+}
+.clock{
+  margin-top: 50px;
+}
+.Geo{
+  margin-top: 50px;
+}
